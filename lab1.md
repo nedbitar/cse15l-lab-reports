@@ -20,16 +20,15 @@ This is where it gets fun. SSH is the equivalent to using a Remote Desktop, but 
 ![Image](1photo/termianl.png)
 5) Now use your own password. Keep in mind you will NOT be able to see what you are typing.
 6) Once you see this, you are done:
+```
+Hello cs15lwi23ajy, you are currently logged into ieng6-201.ucsd.edu
 
-`Hello cs15lwi23xxx, you are currently logged into ieng6-201.ucsd.edu`
+You are using 0% CPU on this system
 
-`You are using 0% CPU on this system`
+Cluster Status 
+Hostname     Time    #Users  Load  Averages  
+ieng6-201   11:35:01   15  0.08,  0.15,  0.14
+ieng6-202   11:35:01   12  0.04,  0.13,  0.12
+```
 
-`Cluster Status `
-
-`Hostname     Time    #Users  Load  Averages` 
-
-`ieng6-201   11:35:01   15  0.08,  0.15,  0.14`
-
-`ieng6-202   11:35:01   12  0.04,  0.13,  0.12`
-
+# Part Three: 
