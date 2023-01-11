@@ -32,3 +32,13 @@ ieng6-202   11:35:01   12  0.04,  0.13,  0.12
 ```
 
 # Part Three: 
+Now you get to type in some commands into the termial window!
+Here are some commands for you to try out:
+* `ls` This lists out all the items in your current directory.
+* `cd <item>` This lets you enter different files that you see from ls.
+* `mkdir <directory name>` This lets you create a new file/ directory.
+* `pwd` This shows you what directory you are in.
+*  `clear` This clears your terminal window.
+
+Here are examples of the usage of these commands:
+![Image](1photo/Command.png)
