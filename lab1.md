@@ -9,4 +9,5 @@ Part one: Installing Visual Studio Code
  1) Open your prefered browser and head to https://code.visualstudio.com
  2) Hit the download Button for your specified version.
  3) Once completed it should like this:
- ![Image](/1photo/Screenshot 2023-01-11 at 12.03.51 PM.png)
+ ![Image]("/1photo/Screenshot 2023-01-11 at 12.03.51 PM.png")
+ ![Image](https://github.com/nedbitar/cse15l-lab-reports/blob/64eb4c8ac300a5cd5ecaad10a0d81e1ed3dd4c73/1photo/Screenshot%202023-01-11%20at%2012.03.51%20PM.png)
