@@ -26,7 +26,10 @@ This is where it gets fun. SSH is the equivalent to using a Remote Desktop, but 
 `You are using 0% CPU on this system`
 
 `Cluster Status `
-`Hostname     Time    #Users  Load  Averages`  
+
+`Hostname     Time    #Users  Load  Averages` 
+
 `ieng6-201   11:35:01   15  0.08,  0.15,  0.14`
+
 `ieng6-202   11:35:01   12  0.04,  0.13,  0.12`
 
