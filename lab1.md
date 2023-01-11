@@ -19,8 +19,9 @@ This is where it gets fun. SSH is the equivalent to using a Remote Desktop, but 
 4) You now will open you visual studio terminal and run this command:
 ![Image](1photo/termianl.png)
 5) Now use your own password. Keep in mind you will NOT be able to see what you are typing.
-6) Once you see this, you are done:`
-Hello cs15lwi23xxx, you are currently logged into ieng6-201.ucsd.edu
+6) Once you see this, you are done:
+
+`Hello cs15lwi23xxx, you are currently logged into ieng6-201.ucsd.edu
 
 You are using 0% CPU on this system
 
