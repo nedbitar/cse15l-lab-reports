@@ -12,7 +12,7 @@ Welcome to your first 15L lab. This lab is going to be of great fun.
  ![Image](https://github.com/nedbitar/cse15l-lab-reports/blob/64eb4c8ac300a5cd5ecaad10a0d81e1ed3dd4c73/1photo/Screenshot%202023-01-11%20at%2012.03.51%20PM.png)
 
 # Part Two: SSH
-This is where it gets fun. SSH is the equivalent to using a Remote Desktop, but there is gui. Just a command line interface.
+This is where it gets fun. SSH is the equivalent to using a Remote Desktop, but there is no GUI. Just a command line interface.
 1) Find your username and password. First of all login to this page: https://sdacs.ucsd.edu/~icc/index.php
 2) From here you will be able to find the three letters that will be used in your login.
 3) Then you will need to reset your password: https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit
