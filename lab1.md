@@ -51,3 +51,6 @@ Here are some commands for you to try out:
 
 Here are examples of the usage of these commands:
 ![Image](1photo/Command.png)
+
+
+The first command, `cd Desktop` essentially gets us into the Desktop directory. Then the next command, `mkdir Test`, run creates a new directory named Test, which is a file, inside the Desktop. Then the `pwd` command shows us our current working directory. These are essentially ways we can naivgate a computer for the command line interface.
