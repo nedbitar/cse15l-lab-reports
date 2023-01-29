@@ -21,9 +21,8 @@ This is where it gets fun. SSH is the equivalent to using a Remote Desktop, but 
 
 3) Then you will need to reset your password: https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit
 
-4) You now will open you visual studio terminal and run this command:
-`ssh cs15lwi23xxx@ieng.ucsd.edu`
-![Image](1photo/termianl.png)
+4) You now will open you visual studio termina. Here is how you do it on MacOS:
+![Image](1photo/termMac.png)
 
 5) Now use your own password. Keep in mind you will NOT be able to see what you are typing.
 
