@@ -8,6 +8,8 @@ Welcome to your first 15L lab. This lab is going to be of great fun.
 # Part one: Installing Visual Studio Code
  1) Open your prefered browser and head to [Visual Studio](https://code.visualstudio.com)
  
+ 
+ 
  2) Hit the download Button for your specified version.
  ![Image](1photo/vsdownload.png)
  3) Once completed it should like this:
