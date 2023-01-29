@@ -8,7 +8,8 @@ Welcome to your first 15L lab. This lab is going to be of great fun.
 # Part one: Installing Visual Studio Code
  1) Open your prefered browser and head to https://code.visualstudio.com
  2) Hit the download Button for your specified version.
- 3) Once completed it should like this:
+ ![Image](1photo/vsdownload.png)
+ 4) Once completed it should like this:
  ![Image](1photo/Screenshot%202023-01-11%20at%2012.03.51%20PM.png)
 
 # Part Two: SSH
