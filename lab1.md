@@ -14,12 +14,18 @@ Welcome to your first 15L lab. This lab is going to be of great fun.
 
 # Part Two: SSH
 This is where it gets fun. SSH is the equivalent to using a Remote Desktop, but there is no GUI. Just a command line interface.
+
 1) Find your username and password. First of all login to this page: https://sdacs.ucsd.edu/~icc/index.php
+
 2) From here you will be able to find the three letters that will be used in your login.
+
 3) Then you will need to reset your password: https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit
+
 4) You now will open you visual studio terminal and run this command:
 ![Image](1photo/termianl.png)
+
 5) Now use your own password. Keep in mind you will NOT be able to see what you are typing.
+
 6) Once you see this, you are done:
 ```
 Hello cs15lwi23ajy, you are currently logged into ieng6-201.ucsd.edu
