@@ -15,11 +15,11 @@ Welcome to your first 15L lab. This lab is going to be of great fun.
 # Part Two: SSH
 This is where it gets fun. SSH is the equivalent to using a Remote Desktop, but there is no GUI. Just a command line interface.
 
-1) Find your username and password. First of all login to this page: [UCSD Login Info] (https://sdacs.ucsd.edu/~icc/index.php)
+1) Find your username and password. First of all login to this page: [UCSD Login Info](https://sdacs.ucsd.edu/~icc/index.php)
 
 2) From here you will be able to find the three letters that will be used in your login.
 
-3) Then you will need to reset your password: [Password Reset info] (https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
+3) Then you will need to reset your password: [Password Reset info](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
 
 4) You now will open you Visual Studio terminal. Here is how you do it on MacOS:
 ![Image](1photo/termMac.png)
