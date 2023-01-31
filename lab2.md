@@ -92,17 +92,27 @@ input1 = new int[]{1,2,3,4,5};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[] {5,4,3,2,1}, input1);
 ```
-#### How to put it into J-unit:
+#### Here is the code with bug:
 ```java
-	@Test 
-	public void testReverseInPlace() {
-    int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
-
-    input1 = new int[]{1,2,3,4,5};
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[] {5,4,3,2,1}, input1);
+static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = arr[arr.length - i - 1];
   }
+}
 ```
+The original code didn't work because it swapped each element with itself, causing no change to the array. To reverse an array in place, swap the first element with the last element, the second with the second to last, and so on, until the middle of the array is reached.
 
+#### Here is how I fixed it:
+```java
+static void reverseInPlace(int[] arr) {
+	for (int i = 0; i < arr.length / 2; i += 1) {
+		int temp = arr[i];
+		arr[i] = arr[arr.length - i - 1];
+		arr[arr.length - i - 1] = temp;
+	}
+}
+```
+This solves the issue of the element swapping with itself. We also change the actual array so we do not have to worry about refrences being incorrect.
+
+## Part 3: Things I learned from the last two weeks:
+The past week has been a valuable learning experience for me. I had the opportunity to work with JUnit, which greatly assisted me in completing the programming assignment due that week. In particular, I struggled with understanding the proper usage of the assertEquals() method, but through the experience gained with the labs, I was able to clarify my understanding. Additionally, I was introduced to web programming using Java and am eager to explore its potential by incorporating CSS to create visually appealing websites and potentially even games. The subject of server technology was particularly intriguing to me as I have prior experience creating Minecraft servers, which are based on Java. Gaining a deeper understanding of server technology has been a fun and enriching experience.
