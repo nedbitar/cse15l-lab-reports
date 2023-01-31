@@ -50,7 +50,8 @@ My code follows the ethos of simplicity. Once the path is changed, my method, ha
 It then goes and checks to see if the path contains the cannedURL, if it does, it looks for what is 
 after the "=" sign, and then it appends it to the history string. This history string is then returned
 to the user.
-<br><br>#### Screenshot: 2
+<br><br> 
+#### Screenshot: 2
 ![image](1photo/hotdogw.png)
 <br><br>
 
@@ -58,3 +59,50 @@ The code consists of two classes, Handler and NumberServer. The Handler class im
 
 The NumberServer class sets up a server with a specified port number. If no port number is provided in the command line arguments, it defaults to 25565. The start method of the Server class is called with the specified port number and an instance of the Handler class, allowing the handleRequest method to handle incoming requests.
 ## Part 2: Debugging
+In this assignment, we were tasked with fixing a pre-written buggy code. We utilized debugging techniques to identify and resolve the issues in the code. To validate our changes, we utilized JUnit tests, a popular testing framework for Java code, to ensure the code was functioning as expected. Through this process, we gained practical experience in debugging and testing Java code, improving our overall coding skills
+
+#### Failue Inducing Input: ArrayTests
+We have a method that is suppose to reverse in place. If you give this program an array of integers: `[1, 2, 3, 4, 5]`, and it should output 
+`[5, 4, 3, 2, 1]`. We can write a simple test like this: <br>
+```java
+public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+
+    input1 = new int[]{1,2,3,4,5};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[] {5,4,3,2,1}, input1);
+  }
+  ```
+This test will tell us if our code is running correctly.
+#### Screenshot: Shows what an Error in J-Unit Looks like
+![image](1photo/fail1.png)
+The way J-unit works is that it runs from top to bottom. It will highlight the test that fails in red. All the tests before the highlighted have passed.
+<br><br>
+#### Code for the test that passed:
+  ```java
+  int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+ ```
+#### Code For the test that failed:
+```java
+input1 = new int[]{1,2,3,4,5};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[] {5,4,3,2,1}, input1);
+```
+#### How to put it into J-unit:
+```java
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+
+    input1 = new int[]{1,2,3,4,5};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[] {5,4,3,2,1}, input1);
+  }
+```
+
