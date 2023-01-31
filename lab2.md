@@ -42,15 +42,19 @@ class NumberServer {
 }
 ```
 ### Screenshot showing StringServer Usage:
+#### Screenshot: 1
 ![image](1photo/joeB.png)
 <br><br>
+
 My code follows the ethos of simplicity. Once the path is changed, my method, handleRequest is called.
 It then goes and checks to see if the path contains the cannedURL, if it does, it looks for what is 
 after the "=" sign, and then it appends it to the history string. This history string is then returned
 to the user.
-<br><br><br>
+<br><br>#### Screenshot: 2
 ![image](1photo/hotdogw.png)
 <br><br>
+
 The code consists of two classes, Handler and NumberServer. The Handler class implements the handleRequest method, which is called when the URL path is changed. The method checks if the URL path contains the string stored in the cannedURL variable, which is "add-message". If the URL path does contain the string, the method splits the path using "=" as a separator, and appends the resulting value to the history string. The updated history string is then returned to the user.
 
 The NumberServer class sets up a server with a specified port number. If no port number is provided in the command line arguments, it defaults to 25565. The start method of the Server class is called with the specified port number and an instance of the Handler class, allowing the handleRequest method to handle incoming requests.
+## Part 2: Debugging
