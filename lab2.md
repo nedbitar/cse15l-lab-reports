@@ -42,5 +42,5 @@ class NumberServer {
 }
 ```
 ### Screenshot showing StringServer Usage:
-[!image] (1photo/joeB.png)
+[!image](1photo/joeB.png)
 
