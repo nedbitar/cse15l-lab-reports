@@ -9,7 +9,7 @@
 <br>
 
 ## Part 1: WebServer
-### This is a piece of software written by me, that simply<br>
+This is a piece of software written by me, that simply<br>
 takes input from the URL bar and then displays it for the user.<br>
 My implementation specifically keeps track of the input, and displays <br>
 it at once.
