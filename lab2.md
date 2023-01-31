@@ -13,8 +13,9 @@ This is a piece of software written by me, that simply<br>
 takes input from the URL bar and then displays it for the user.<br>
 My implementation specifically keeps track of the input, and displays <br>
 it at once.
-<br>
+<br><br>
 Here is the code for this:
+<br>
 ```java
 private static String cannedURL = "add-message";
 
@@ -40,3 +41,6 @@ class NumberServer {
     }
 }
 ```
+### Screenshot showing StringServer Usage:
+[!image] (1photo/joeB.png)
+
