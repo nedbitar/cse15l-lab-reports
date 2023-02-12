@@ -49,7 +49,7 @@ Here is the code for this:
 
 The getQuery() method is used to extract the query component of a URL. The query component of a URL is the part of the URL that follows the ? character and contains additional information to be passed to the server.
 
-In your code, the handleRequest method takes a URI object as an input, and it checks if the query component of the URL contains the cannedURL string. If it does, it extracts the part of the query that comes after the "=" sign. This extracted part represents the information that needs to be added to the history string. The updated history string is then returned to the user.
+In my code, the handleRequest method takes a URI object as an input, and it checks if the query component of the URL contains the cannedURL string. If it does, it extracts the part of the query that comes after the "=" sign. This extracted part represents the information that needs to be added to the history string. The updated history string is then returned to the user.
 
 By using the getQuery() method, you are able to access the query component of the URL and extract the required information without the need to use the .split() method. This makes the code more efficient and easier to understand, as it follows the ethos of simplicity.
 <br><br> 
