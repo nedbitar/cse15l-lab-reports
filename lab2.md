@@ -17,39 +17,41 @@ it at once.
 Here is the code for this:
 <br>
 ```java
-private static String cannedURL = "add-message";
+ String[] parameters = null;
+    String history = "";
+
+    private static String cannedURL = "add-message";
 
     public String handleRequest(URI url) {
-        
-        if (url.getPath().contains(cannedURL)) {
-            parameters = url.getPath().split("=");
+        if (url.getQuery().contains(cannedURL)) {
+            parameters = url.getQuery();
             this.history = this.history + parameters[1] + "\n";
             return history;
         }
         return "not it chief";
-}
-
-
-class NumberServer {
-    public static void main(String[] args) throws IOException {
-        if(args.length != 0) {
-            System.out.println("Missing port number! Try any number between 1024 to 49151");
-            return;
-        }
-        int port = 25565;//Integer.parseInt(args[0]);
-        Server.start(port, new Handler());
     }
-}
+
+    class NumberServer {
+        public static void main(String[] args) throws IOException {
+            if(args.length != 0) {
+                System.out.println("Missing port number! Try any number between 1024 to 49151");
+                return;
+            }
+            int port = 25565;//Integer.parseInt(args[0]);
+            Server.start(port, new Handler());
+        }
+    }
 ```
 ### Screenshot showing StringServer Usage:
 #### Screenshot: 1
 ![image](1photo/joeB.png)
 <br><br>
 
-My code follows the ethos of simplicity. Once the path is changed, my method, handleRequest is called.
-It then goes and checks to see if the path contains the cannedURL, if it does, it looks for what is 
-after the "=" sign, and then it appends it to the history string. This history string is then returned
-to the user.
+The getQuery() method is used to extract the query component of a URL. The query component of a URL is the part of the URL that follows the ? character and contains additional information to be passed to the server.
+
+In your code, the handleRequest method takes a URI object as an input, and it checks if the query component of the URL contains the cannedURL string. If it does, it extracts the part of the query that comes after the "=" sign. This extracted part represents the information that needs to be added to the history string. The updated history string is then returned to the user.
+
+By using the getQuery() method, you are able to access the query component of the URL and extract the required information without the need to use the .split() method. This makes the code more efficient and easier to understand, as it follows the ethos of simplicity.
 <br><br> 
 #### Screenshot: 2
 ![image](1photo/hotdogw.png)
