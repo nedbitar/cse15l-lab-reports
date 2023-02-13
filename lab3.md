@@ -82,3 +82,48 @@ nazihbitar@JoeBob berlitz1 % grep -b "the" WhereToHawaii.txt
 2008:        by Father Damien at Kalaupapa, which can be reached by mule (see
 2167:        hide­away with two splendid resorts and the remains of the historic
 ```
+The -b option is useful in situations where you need to know the exact location of a match within a file. For example, if you are processing a large log file, you may want to extract only the lines that contain a certain string, and you can use the byte offset to identify the lines that contain the string. Additionally, you can use the byte offset to jump directly to the match in a text editor or hex editor.
+
+<h2>The '-o' Option in 'grep'</h2>
+The -o used to display only the matching parts of a file, instead of displaying the entire line. This option can be useful when you only need to see the specific matching part of a line, rather than the entire line.
+
+<h3>Here is the Syntax for the command:</h3>
+
+```console
+grep -o "Key Word or Phrase to search for" fileName.txt
+```
+<h4> Here is example of Usage: </h4>
+
+```console
+nazihbitar@JoeBob berlitz1 % grep -o "yoyo" WhereToJapan.txt
+yoyo
+nazihbitar@JoeBob berlitz1 % grep -o "the" WhereToHawaii.txt
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+```
