@@ -128,6 +128,6 @@ the
 In the example provided, the command is searching for the string "yoyo" in the file "WhereToJapan.txt", and it returns "yoyo". Similarly, when searching for the string "the" in the file "WhereToHawaii.txt", it returns multiple instances of "the". This option can be useful when you only want to see the parts of the input that match the specified pattern, rather than the full lines.
 
 
-Work Cited:
+<h4>Work Cited:</h4>
 OpenAI. (2021). ChatGPT. [Online]. Available:[ChatGPT](https://openai.com/products/gpt-3/)<br>
 "Grep." Wikibooks, Wikimedia Foundation, Inc., [WikiBooks](en.wikibooks.org/wiki/Grep.)
