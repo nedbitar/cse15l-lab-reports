@@ -52,6 +52,7 @@ The -b option in the grep command is used to display the byte offset at which ea
 
 
 <h4> Here is example of Usage: </h4>
+
 ```console
 nazihbitar@JoeBob berlitz1 % grep -b "yoyo" WhereToJapan.txt
 79451:        pines of the forest surrounding the lovely Kyoyochi Pond at the foot of
