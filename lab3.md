@@ -26,6 +26,8 @@ Each line of the output shows the name of a file containing a match, followed by
 <h2>The '-c' Option in 'grep'</h2>
 You can think of the '-c' option as an abbreviation for count. It is a special option that tell the computer to count the number times a word or phrase appears in a txt file.
 
+<h3>Here is the Syntax for the command:</h3>
+
 ```console
 grep -c "word or phrase" fileName.txt
 ```
@@ -49,7 +51,11 @@ So the output of these grep -c commands is simply a count of the number of times
 <h2>The '-b' Option in 'grep'</h2>
 The -b option in the grep command is used to display the byte offset at which each match is found. This option is useful if you want to know the exact location of each match within the file.
 
+<h3>Here is the Syntax for the command:</h3>
 
+```console
+grep -b "Key Word or Phrase to search for" fileName.txt
+```
 
 <h4> Here is example of Usage: </h4>
 
