@@ -32,6 +32,7 @@ grep -c "word or phrase" fileName.txt
  
 
 <h4>Here is example usage:</h4>
+
 ```console
 nazihbitar@JoeBob berlitz1 % grep -c "yoyo" WhereToJapan.txt
 1
@@ -39,3 +40,38 @@ nazihbitar@JoeBob berlitz1 % grep -c "the" WhereToHawaii.txt
 18
 ```
 
+The output is the result of running the grep -c command on two different text files.
+
+The first line of output is 1. This is the result of running grep -c "yoyo" WhereToJapan.txt. The -c option is counting the number of times the word "yoyo" appears in the file "WhereToJapan.txt". In this case, the word "yoyo" appears only once in the file, so the output is 1.<br><br>
+The second line of output is 18. This is the result of running grep -c "the" WhereToHawaii.txt. The -c option is counting the number of times the word "the" appears in the file "WhereToHawaii.txt". In this case, the word "the" appears 18 times in the file, so the output is 18.<br><br>
+So the output of these grep -c commands is simply a count of the number of times the specified word or phrase appears in the text file.
+
+<h2>The '-b' Option in 'grep'</h2>
+The -b option in the grep command is used to display the byte offset at which each match is found. This option is useful if you want to know the exact location of each match within the file.
+
+
+
+<h4> Here is example of Usage: </h4>
+```console
+nazihbitar@JoeBob berlitz1 % grep -b "yoyo" WhereToJapan.txt
+79451:        pines of the forest surrounding the lovely Kyoyochi Pond at the foot of
+nazihbitar@JoeBob berlitz1 % grep -b "the" WhereToHawaii.txt
+47:        Oahu: Waikiki Beach is the tourist center of the islands,
+113:        worth strolling or playing on; so is the parallel shopping street.
+188:        Hidden beneath the glitter are veins of the old royal and romantic
+471:        the outbreak of World War II in the Pacific (see page 39).
+609:        beauty with the modern charm of surfing villages and beaches (see
+703:        Hanauma Bay, a gorgeous volcanic amphitheater on the shores
+875:        Maui: The vast Mount Haleakala caldera towers over the
+970:        Lahaina, once the chief whaling port of the Pacific, teems
+1104:        The road to and from Hana goes through the heart of tropical
+1173:        forests and the “real Hawaii” (see page 53).
+1299:        the Puuhonua-O-Honaunau City of Refuge, Hawaii’s most striking native
+1484:        the sea at the end of the Chain of Craters Road (see page 64).
+1625:        Waimea Canyon, the “grand Canyon of the Pacific” (see page 68).
+1703:        The roadless Na Pali Coast on the heavenly north shore is
+1769:        one of the world’s most challenging and majestic seaside hikes (see
+1929:        sparsely-populated island are the setting for the leper colony founded
+2008:        by Father Damien at Kalaupapa, which can be reached by mule (see
+2167:        hide­away with two splendid resorts and the remains of the historic
+```
