@@ -129,5 +129,5 @@ In the example provided, the command is searching for the string "yoyo" in the f
 
 
 Work Cited:
-OpenAI. (2021). ChatGPT. [Online]. Available:[ChatGPT](https://openai.com/products/gpt-3/)
+OpenAI. (2021). ChatGPT. [Online]. Available:[ChatGPT](https://openai.com/products/gpt-3/)<br>
 "Grep." Wikibooks, Wikimedia Foundation, Inc., [WikiBooks](en.wikibooks.org/wiki/Grep.)
