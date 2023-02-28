@@ -39,7 +39,9 @@ I literally just typed in.
 Then press the <Right Arrow> (12 times) <BackSpace> <2> (essentially we changing the index1 to index2)
 ![test](1photo/nano2.png)
 <h2>Step 6: Save and Exit:</h2>
+```
 <control><o><enter><control><x>
+```
 ![test](1photo/save.png) 
   
 <h2>Step 7: Recompile and Run Tests:</h2>
@@ -48,16 +50,22 @@ Then press the <Right Arrow> (12 times) <BackSpace> <2> (essentially we changing
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java &&
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
+![test](1photo/runAgain.png)
 <h2>Step 8: Adding the Changes:</h2>
+  
+![test](gitAdd.png)
   
 ```
 <control><r> add <enter>
 ```
 <h2>Step 9: Commiting the Changes:</h2>
+  
+![test](gitCommit.png)
  
 ```
 <control><r> c <enter>
 ```
+![test](gitPush.png)
 <h2>Step 10: Pushing the Changes:</h2>
   
 ```
