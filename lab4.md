@@ -53,20 +53,36 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ![test](1photo/runAgain.png)
 <h2>Step 8: Adding the Changes:</h2>
   
+```
+git add ListExamples.png
+```
+  
 ![test](gitAdd.png)
+  
+
   
 ```
 <control><r> add <enter>
 ```
 <h2>Step 9: Commiting the Changes:</h2>
   
+```
+git commit -m "message" 
+```
+  
 ![test](gitCommit.png)
  
 ```
 <control><r> c <enter>
 ```
-![test](gitPush.png)
+
 <h2>Step 10: Pushing the Changes:</h2>
+  
+```
+git push git@github.com:nedbitar/lab7.git
+```
+  
+![test](gitPush.png)
   
 ```
 <control><r> p <enter>
