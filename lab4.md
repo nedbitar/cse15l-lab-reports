@@ -5,7 +5,7 @@ ssh cs15lwi23ajy@ieng6.ucsd.edu
 ```
 
 ![Test](1photo/s1.png)
-I pressed the the up arrow <up> 
+I pressed the the up arrow <`up`> 
 <h2>Step 2: Cloning the Repo</h2>
 
 ```
