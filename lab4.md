@@ -12,7 +12,7 @@ I pressed the the up arrow <up>
 git clone git@github.com:nedbitar/lab7.git
 ```
 ![test](1photo/gitClone.png)
-I pressed the up Arrow Twice <up><up>  
+I pressed the up Arrow Twice <`up`><`up`>  
 <h2>Step 3: Change Directory + Compile Tests + Running the Tests</h2>
 
 ```
