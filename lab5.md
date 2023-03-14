@@ -141,11 +141,17 @@ Here is the command we run:
   
 <p>Keep a notice of the line it presents when we run it from the same place. This gave us line 39.</p>
   <h4>For the backwards search:</h4>
+  
 <code>?three</h3>
   
 ![image](1photo/back.png)
   
   <p>This gave us line 20 instead of 39, since it searches backwards for the closest occurence</p>
+  
+  
+<h2> Sources </h2>
+  <p> Would not have been possible without the contribution of: </p> [man7.org](https://man7.org/linux/man-pages/man1/less.1.html)
+  
   
 
   
