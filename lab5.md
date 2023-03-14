@@ -137,7 +137,7 @@ Here is the command we run:
   <h4>For the forward search:</h4>
 <code>/three</code>
   
-![image](1photo/foward.png)
+![image](1photo/forward.png)
   
 <p>Keep a notice of the line it presents when we run it from the same place. This gave us line 39.</p>
   <h4>For the backwards search:</h4>
