@@ -36,7 +36,7 @@ How cool!</p>
   
 <h2><code>-i</code>Allows for case-insensitive search within a tex file</h2>
 <p>Here is the syntax for the command:
-  <code>less -I [filename] </code>
+  <code>less -i [filename] </code>
     Filename is the name of the file we want to view, and less will display what is inside, with the 
     option to search. Once less is open you type:<br>
 <code>-i</code>
@@ -95,7 +95,7 @@ Commands run:
 <h3>Example 2:</h3>
 Commands run:
       
-<code> less -N ch4.txt </code>
+<code> less -i ch4.txt </code>
 <code>?days</code>
       
 <h4>Output:</h4>
@@ -105,7 +105,7 @@ Commands run:
 <p>This essentially searches from the last displayed line, which ends in "object." in this case, to the start of the text file. Here
 we found only 1 occurence of the word days</p>
 
-<h4> The Finale: Using multiple options in a search</h4>
+<h2> The Finale: Using multiple options in a search</h2>
 <p>The cool thing about less is it lets you enable multiple command line options at once. Once you open a file in a less, you then can
   enable all the search options you want.</p>
   
@@ -119,10 +119,29 @@ As explained about this shows the line numbers:
   ![photo](1photo/ex1.png)
 Now we can enable the search options we want:
   For the ignore case, we type in the less window <code>-i</code>
-![photo](1photo/ex2.png)
+![photo](1photo/ex2.png)<br>
 Now lets search for something backwards:
 ![photo](1photo/ex3.png)
  <code>?tHrEe</code>
   <p>Sucess! It has found what we are looking for </p>
   
+
+<h3>Example 2</h3>
+<p>Our goal is to have a case-sensitive forward search without the numbers showing on the left side.</p>
+Here is the command we run:
+<code>less ch1.txt</code>
+<code>-i</code>
+<p>For the keen eyed of you, you realize that -i, is used to enable case sensitive search as well. The best way to think of it is a switch. You turn the light on and off using the same switch. That is the same case as -i. It will let you know what type of search is enabled. As shown below.</p>
+![image](1photo/sen.png)
+  <p>Now lets specifiy directionality of the search. To search forward we use <code>/(what we are looking for)</code>, and to search backwards we use<code>?(what we are looking for)</code>. Less makes it very simple to use. Here is an example of running both forward and backwards:</p>
+  <h4>For the forward search:</h4>
+<code>/three</code>
+![image](1photo/foward.png)
+<p>Keep a notice of the line it presents when we run it from the same place. This gave us line 39.</p>
+  <h4>For the backwards search:</h4>
+<code>?three</h3>
+![image](1photo/back.png)
+  <p>This gave us line 20 instead of 39, since it searches backwards for the closest occurence</p>
+  
+
   
