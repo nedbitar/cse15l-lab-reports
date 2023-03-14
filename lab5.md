@@ -136,11 +136,15 @@ Here is the command we run:
   <p>Now lets specifiy directionality of the search. To search forward we use <code>/(what we are looking for)</code>, and to search backwards we use<code>?(what we are looking for)</code>. Less makes it very simple to use. Here is an example of running both forward and backwards:</p>
   <h4>For the forward search:</h4>
 <code>/three</code>
+  
 ![image](1photo/foward.png)
+  
 <p>Keep a notice of the line it presents when we run it from the same place. This gave us line 39.</p>
   <h4>For the backwards search:</h4>
 <code>?three</h3>
+  
 ![image](1photo/back.png)
+  
   <p>This gave us line 20 instead of 39, since it searches backwards for the closest occurence</p>
   
 
